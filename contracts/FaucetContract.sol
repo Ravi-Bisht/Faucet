@@ -11,6 +11,8 @@ contract Faucet {
     // External function can  be called from other contracts
     receive() external payable {}
 
+    function addFunds() external payable{}
+
     
 }
 
